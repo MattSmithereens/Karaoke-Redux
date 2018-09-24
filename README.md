@@ -4,8 +4,8 @@ https://github.com/epicodus-lessons/react-redux-karaoke-example/tree/4_0f_redux_
 
 the only change is that I hid my APIKey in a separate file.  To make this work, create a folder in `src` called `APIKey`.  In the `APIKey` folder, create a file called `MusixMatchKey.js` and enter the following information:
 
-> const MusixMatchKey = '___ENTER YOUR API KEY HERE___'
+> const MusixMatchKey = '__ENTER YOUR API KEY HERE__'
 
-> export default MusixMatchKey;`
+> export default MusixMatchKey;
 
 The `APIKey` folder has been included in the `.gitignore` file so as to not publish the key in my repo
